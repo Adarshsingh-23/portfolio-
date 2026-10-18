@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+  border-bottom: 1px solid #1e293b;
+}
+
+nav h2 {
+  font-size: 24px;
+}
+
+nav div {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: #cbd5e1;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+}
+
+section {
+  min-height: 100vh;
+  padding: 100px 8%;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#home h1 {
+  font-size: 60px;
+  margin: 10px 0;
+}
+
+#home h2 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+#home p {
+  max-width: 600px;
+  line-height: 1.7;
+  color: #cbd5e1;
+}
+
+button {
+  width: fit-content;
+  margin-top: 30px;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#about,
+#skills,
+#projects,
+#contact {
+  border-top: 1px solid #1e293b;
+}
+
+section h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+#projects div {
+  max-width: 500px;
+  padding: 25px;
+  border: 1px solid #334155;
+  border-radius: 12px;
+}
